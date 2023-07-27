@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+
+
+    <style>
+      .body {
+
+      }
+
+	.aaa {
+		display: flex;
+	}
+
+	.form {
+		background-color:whitesmoke;
+		border-radius: 10px;
+		text-align: center;
+		margin-left: 20%;
+		margin-right: 20%;
+
+	}
+
+	.name {
+		display:flex;
+		margin-top: 50px;
+		padding-top: 50px;
+		padding-left: 145px;
+		
+
+	}
+
+	.namae {
+		margin-right: 50px;
+
+		
+	}
+
+	.namae2 {
+		width: 300px;
+		border-radius: 5px;
+		padding-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+
+
+	}
+
+	.email {
+		display:flex;
+		padding-top: 50px;
+		padding-left: 65px;
+		
+
+	}
+
+	.email1 {
+		margin-right: 50px;
+
+		
+	}
+
+	.email2 {
+		width: 300px;
+		border-radius: 5px;
+		padding-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+
+
+	}
+
+	.pass {
+		display:flex;
+		padding-top: 50px;
+		padding-left: 95px;
+		
+
+	}
+
+	.pass1 {
+		margin-right: 50px;
+
+		
+	}
+
+	.pass2 {
+		width: 300px;
+		border-radius: 5px;
+		padding-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+
+
+	}
+
+	.age {
+		display:flex;
+		padding-top: 50px;
+		padding-left: 145px;
+		
+
+	}
+
+	.age1 {
+		margin-right: 50px;
+
+		
+	}
+
+	.age2 {
+		width: 300px;
+		border-radius: 5px;
+		padding-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+
+
+	}
+
+	.address {
+		display:flex;
+		padding-top: 50px;
+		padding-left: 145px;
+		margin-bottom: 50px;
+		
+
+	}
+
+	.address1 {
+		margin-right: 50px;
+
+		
+	}
+
+	.address2 {
+		width: 300px;
+		border-radius: 5px;
+		padding-left: 10px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+
+
+
+	}
+
+	.submit {
+		border-style: none;
+		background-color: blue;
+		color: white;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 100px;
+		padding-right: 100px;
+		margin-bottom: 50px;
+
+	}
+	
+
+	.swiper {
+	width: 600px;
+	height: 300px;
+	}
+
+	.moji {
+		text-align: center;
+		display: block;
+	
+		
+	}
+
+	.moji2 {
+		text-align: center;
+		display: block;
+	}
+
+	.swiper-slide {
+		text-align: center;
+	}
+
+	.img {
+		align-self: center; 
+	}
+
+    </style>
+
+
+    <title>Document</title>
+</head>
+<body>
+
+	<!--swiper-->
+		<!-- Slider main container -->
+	<div class="aaa">
+	<div>
+	<div id="swiper" class="swiper swiper-1">
+		<!-- Additional required wrapper -->
+		<div class="swiper-wrapper">
+			<!-- Slides -->
+			<div id="slide1" class="swiper-slide">slide1</div>
+			<div id="slide2" class="swiper-slide">slide2</div>
+			<div id="slide3" class="swiper-slide">slide3</div>
+			
+		</div>
+		<!-- If we need pagination -->
+		<div class="swiper-pagination"></div>
+	
+		<!-- If we need navigation buttons -->
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+	
+		<!-- If we need scrollbar -->
+		<div class="swiper-scrollbar"></div>
+
+		
+
+		
+	</div> 
+	<div class="moji"id="moji"></div>
+	</div>
+	
+	
+
+
+		<!--swiper-->
+		<!-- Slider main container -->
+	<div>
+	<div id="swiper2" class="swiper swiper-2">
+		<!-- Additional required wrapper -->
+		<div class="swiper-wrapper">
+
+			<div id="slide1" class="swiper-slide">
+				<img src="buranko_boy_sad.png" alt="">
+			    </div>
+			    <div id="slide2" class="swiper-slide">
+				<img src="buranko_girl_sad.png" alt="">
+			    </div>
+			    <div id="slide3" class="swiper-slide">
+				<img src="buranko_girl_smile.png" alt="">
+			    </div>
+			<!-- Slides -->
+			
+		</div>
+		<!-- If we need pagination -->
+		<div class="swiper-pagination"></div>
+	
+		<!-- If we need navigation buttons -->
+		<div class="swiper-button-prev"></div>
+		<div class="swiper-button-next"></div>
+	
+		<!-- If we need scrollbar -->
+		<div class="swiper-scrollbar"></div>
+
+		
+	</div> 
+	<div class="moji2"id="moji2"></div>
+	</div>
+	
+
+</div>
+
+	
+	
+	
+
+
+
+	<!-- just -->
+
+	<form id="basic_form">
+		<div class="form">
+		<div class="name">
+			<p class="namae">名前</p>
+			<input  class="namae2" id="basic_name" type="text" name="name" placeholder="名前を入力してください。" />
+		</div>
+		<div class="email">
+			<p class="email1" >メールアドレス</p>
+			<input class="email2" id="basic_email" type="text" name="email"placeholder="メールアドレスを入力してください。" />
+		</div>
+		<div class="pass">
+			<p class="pass1" >パスワード</p>
+			<input class="pass2" id="basic_password" type="text" name="password" placeholder="パスワードを入力してください。" />
+		</div>
+		<div class="age">
+			<p class="age1" >年齢</p>
+			<input class="age2" id="basic_age" type="text" name="age" placeholder="年齢を入力してください。" />
+		</div>
+		<div class="address">
+			<p class="address1" >住所</p>
+			<input class="address2" id="basic_address" type="text" name="address" placeholder="住所を入力してください。" />
+		</div>	
+			<button class="submit" type="submit">送信</button>
+	</div>
+	</form>
+
+	<script src="main.js">
+		
+	</script>
+
+    	
+</body>
+</html>
